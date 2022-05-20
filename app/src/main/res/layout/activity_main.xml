@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="354dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/hello"
+        android:ems="10"
+        android:hint="Enter Message"
+        android:inputType="textMultiLine"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@id/message"
+        android:backgroundTint="#2969f1"
+        app:cornerRadius="100dp"
+        app:icon="@drawable/ic_baseline_send_24"
+        app:iconPadding="8dp"
+        app:iconSize="30dp"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/message"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp">
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android projects/chat/app/src/main/res/drawable/corner.xml" value="0.1" />
+        <entry key="..\:/android projects/chat/app/src/main/res/drawable/corner2.xml" value="0.1" />
+        <entry key="..\:/android projects/chat/app/src/main/res/drawable/hello.xml" value="0.1845" />
+        <entry key="..\:/android projects/chat/app/src/main/res/drawable/incoming.xml" value="0.1" />
+        <entry key="..\:/android projects/chat/app/src/main/res/drawable/item.xml" value="0.1" />
+        <entry key="..\:/android projects/chat/app/src/main/res/drawable/outgoing.xml" value="0.233" />
+        <entry key="..\:/android projects/chat/app/src/main/res/drawable/rounded_rect.xml" value="0.233" />
+        <entry key="..\:/android projects/chat/app/src/main/res/drawable/testcornerx.xml" value="0.1" />
+        <entry key="..\:/android projects/chat/app/src/main/res/drawable/testcornery.xml" value="0.1" />
+        <entry key="..\:/android projects/chat/app/src/main/res/drawable/testrectx.xml" value="0.1" />
+        <entry key="..\:/android projects/chat/app/src/main/res/drawable/textrecty.xml" value="0.1" />
+        <entry key="..\:/android projects/chat/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/android projects/chat/app/src/main/res/layout/activity_main2.xml" value="0.264" />
+        <entry key="..\:/android projects/chat/app/src/main/res/layout/edittextchanges.xml" value="0.15217391304347827" />
+        <entry key="..\:/android projects/chat/app/src/main/res/layout/hello.xml" value="0.264" />
+        <entry key="..\:/android projects/chat/app/src/main/res/layout/incoming.xml" value="0.176" />
+        <entry key="..\:/android projects/chat/app/src/main/res/layout/outgoing.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
